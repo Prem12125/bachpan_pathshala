@@ -1,0 +1,45 @@
+:root {
+    --eshan-color: #07243f !important;
+}
+
+.theme-bg-3 {
+    background: #07243f !important;
+}
+
+.dropdown-megamenu {
+    position: static !important;
+}
+
+.dropdown-sub-megamenu {
+    top: auto !important;
+    width: 100% !important;
+    background: url(assets/images/mm-col-bg.png) no-repeat right bottom, #fff !important;
+}
+
+.main-menu ul li:hover>.dropdown-sub-megamenu {
+    top: auto !important;
+}
+
+.font-size-14 {
+    font-size: 0.875rem;
+}
+
+.width-33 {
+    width: 33.33% !important;
+}
+
+.apply-select {
+    width: 100% !important;
+    height: 60px !important;
+    line-height: 52px !important;
+    padding: 0 50px !important;
+    font-size: 14px !important;
+    border: 2px solid transparent !important;
+    background: var(--tp-grey-2) !important;
+    color: var(--tp-common-black) !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    border-radius: 6px !important;
+}
